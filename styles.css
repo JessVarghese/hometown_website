@@ -1,13 +1,3 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 
 /* 
 STRETCH GOALS
@@ -22,8 +12,49 @@ STRETCH GOALS
 body {
     margin: 0;
     text-align: center;
+    font-family: Lato;
 }
 
 img {
     width: 100px;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+    background-image: url("/images/hartford.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #EFEFD0;
+    
+}
+
+
+h1 {
+    font-size: 60px;
+    text-shadow: 3px 3px black;
+    margin: 0 400px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+/* ACTIVITIES SECTION */
+
+.activities-section {
+    background-color: #FF6B35;
+   
+}
+
+.act-img {
+ border-radius: 50%;
+ height: 100px;
+
 }
