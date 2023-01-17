@@ -13,10 +13,12 @@ body {
     margin: 0;
     text-align: center;
     font-family: Lato;
+    flex-wrap: wrap;
+    color: #2b2839;
 }
 
 img {
-    width: 100px;
+    width: 250px;
 }
 
 /* HERO SECTION */
@@ -24,8 +26,7 @@ img {
 .hero-section {
     background-image: url("./images/hartford.jpg");
     background-size: cover;
-    margin: 0 auto;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,20 +35,27 @@ img {
 }
 
 
-h1 {
+#header {
     font-size: 60px;
-    text-shadow: 3px 3px black;
+    text-shadow: 3px 5px 3px black;
     margin: 0 400px;
     border-radius: 10px;
 }
 
 h2 {
     font-size: 30px;
+    color: #EFEFD0;
+    text-shadow: 3px 5px 3px black;
 }
 
-h3 {
-    text-align: center;
+h2 span {
+
+    background-color: blue;
+    text-shadow: 3px 5px 3px black;
+   
+
 }
+
 
 
 
@@ -62,25 +70,55 @@ h3 {
 
 }
 
+.act-container {
+    display: flex;
+    justify-content: center;
+    
+    
+    }
+
 .act-img {
     border-radius: 50%;
-    height: 100px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;  
+    height: 250px;
+    border: 4px dotted #2b2839;
+}
+
+.act-title {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.act-box{
+    width: 400px;
+}
+
+/* GUIDE SECTION */
+
+.guide-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    background-color: #FF6B35;
+  
+}
+
+.guide-box {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 3px dotted rgb(29, 28, 28);
+    color: #EFEFD0;
+    background-color: #2b2839;
+    border-radius: 10px 20px;
 
 }
 
-.act-titles {
-display: flex;
-justify-content: center;
-
-
+.headshot {
+    width: 175px;
+    height: 175px;
+    border-radius: 20px;
+    
 }
 
-.act-container {
-    padding: 20px 20px;
-   
-}
